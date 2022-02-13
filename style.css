@@ -1,0 +1,170 @@
+/*!
+Theme Name: Sunflower
+Theme URI: http://theredsunflower.com/code-camp
+Author: Jessica Patterson
+Author URI: https://theredsunflower.com
+Description: Code Camp Starter Theme
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: Sunflower
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Sunflower is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+/*eliminates margin around entire webpage*/
+body {
+	margin: 0;
+}
+
+/*images should not exceed parent container*/
+img {
+	max-width: 100%;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 32px;
+}
+p {
+	font-size: 22px;
+}
+a {
+	color: black;
+}
+/*Default Styles*/
+
+#header {
+	background-color: white;
+	padding: 2.5%;
+	margin: 0;
+	text-align: center;
+}
+#sitename {
+	margin-bottom: 2.5%;
+}
+.page {
+	overflow: auto;
+}
+#fp-content {
+	background-color: black;
+	overflow: auto;
+	padding: 5%;
+}
+.fp-single {
+	width: 100%;
+	float: left;
+	background-color: white;
+	margin-bottom: 5%;
+}
+.fp-double {;
+	width: 100%;
+	float: left;
+	overflow: auto;
+	margin-bottom: 5%;
+	background-color: lightgray;
+}
+
+
+.fp-blog {
+	background-color: white;
+	float: left;
+	width: 100%;
+	margin-bottom: 5%;
+}
+.front-page-title {
+	text-align: center;
+}
+.front-page-description {
+	padding: 2.5%;
+	text-align: center;
+}
+.front-page-image {
+	width: 50%;
+	margin: 0 25% 0 25%;
+}
+
+.content-item img {
+	width: 100%;
+	height: auto;
+}
+.content-item h2 {
+	text-align: center;
+}
+.content-item p {
+	text-align: center;
+}
+#footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 2.5%;
+	border-top: 1px solid white;
+}
+#footer a {
+	color: white;
+}
+#footer a:hover {
+	color: #990134;
+}
+#content {
+	overflow: auto;
+	padding: 5%;
+	background-color: white;
+}
+#single-content {
+	float: left;
+	width: 90%;
+	box-sizing: border-box;
+	padding: 0 2.5% 0 2.5%;
+	background-color: lightgray;
+	margin: 0 5% 0 5%;
+}
+#single-recent-posts {
+	float: left;
+	width: 30%;
+	margin: 0;
+	padding: 2.5%;
+	box-sizing: border-box;
+	background-color: darkgray;
+}
+
+#single-recent-posts .content-item {
+	width: 100%;
+	height: auto;
+}
+#other-content {
+	float: left;
+	width: 90%;
+	box-sizing: border-box;
+	background-color: lightgray;
+	margin: 0 5% 0 5%;
+	padding: 0 2.5% 0 2.5%;	
+}
+@media only screen and (min-width: 800px) {
+	.fp-double-a {
+		float: left;
+		width: 45%;
+		margin: 2.5%;
+		background-color: white;
+	}
+	.fp-double-b {
+		float: left;
+		width: 45%;
+		margin: 2.5%;
+		background-color: white;
+	}
+	.content-item {
+		width: 30.3%;
+		float: left;
+		margin: 1.5%;
+		height: 800px;
+		overflow: hidden;
+	}
+}
