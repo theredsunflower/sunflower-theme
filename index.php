@@ -21,8 +21,7 @@ get_header(); ?>
 	 
 	    		// the code between the while loop will be repeated for each post
 	    		?>
-	    			<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
-	    			<p class="date-author">Posted: <?php the_date(); ?> by <?php the_author(); ?></p>
+	    			<h1 id="post-<?php the_ID(); ?>"><?php the_title(); ?></h1>
 	   				<?php the_content(); ?> 
 	    		<?php
 	    		// Stop the loop when all posts are displayed
